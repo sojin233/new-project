@@ -48,9 +48,8 @@ nav:hover .slider-menu {display: block;}
 
 /* main  */
 main {position: relative; overflow: hidden;}
-main section {position: relative;}
-main section .main_img_wrap {width: 100%; height: 100%;}
-main section .main_img_wrap .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh;    box-sizing: content-box;}
+main section {/* position: relative; */}
+main section figure {border: 1px solid red; position: relative; width: 100%; height: 100%;}
+main section figure .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh;}
 
 
-.close {display: none;}
