@@ -13,16 +13,25 @@
 /* body */
 body {background-color: #f9f7f6;overflow-y: auto; overflow-x: hidden; margin-bottom: 30px;}
 
-.wrap {max-width: 1320px;margin: 0 auto;}
+.wrap {max-width: 1320px; margin: 0 auto;}
 
 
 /* header */
-.hd {position: fixed;top: 0;left: 0;z-index: 10;width: 100%;padding-top: 20px;padding: 0;}
+.hd {position: fixed;top: 0;left: 0;z-index: 10;width: 100%;padding-top: 10px;border: 1px solid yellow;padding: 0;}
 .hd .hd_inner {max-width: 1700px;}
-.hd .hd_inner .logo {position: relative; width: 6%;}
+.hd .hd_inner .logo {position: relative; width: 6%; display: inline-block;}
 .hd .hd_inner .logo a img {width: 100%; display: block;}
 .hd .hd_inner .logo a .logo_b {position: absolute; top: 0; left: 0; visibility: hidden;}
 
 
 /* nav */
-nav {border: 1px solid red;}
+nav {border: 1px solid red; display: inline-block; height: 100%; vertical-align:top; text-align: center;}
+nav:hover .slider-menu {display: block;}
+nav ul li a{color: #000;}
+
+nav > ul {display: inline-block;}
+nav > ul > li {display: inline-block; width: 150px; text-align: center;}
+nav > ul > li > a {font-size: 14px; font-weight: 400; display: block; font-size: 400;}
+
+.slider-menu {border: 1px solid palegoldenrod; padding-top: 10px; display: none;}
+.slider-menu li a {font-size: 14px; font-weight: 300;}
