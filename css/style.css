@@ -43,12 +43,12 @@ nav:hover .slider-menu {display: block;}
 .sns-wrap ul li:nth-child(2) {margin-left: 10px;}
 .sns-wrap ul li a {color: #fff;}
 .sns-wrap ul li a .ico_naver {font-size: 15px; font-weight: bold;}
-.sns-wrap ul li a .ico_ins {display: inline-block;width: 15px;height: 15px; background-repeat: no-repeat;background-image: url(/img/ico_ins_w.png);background-size: 15px auto;}
+.sns-wrap ul li a .ico_ins {display: inline-block;width: 15px;height: 15px; background-repeat: no-repeat;background-image: url(img/ico_ins_w.png);background-size: 15px auto;}
 .sns-wrap ul li a span {display: block; font-size: 12px;}
 
 /* main  */
 main {position: relative; overflow: hidden;}
 main section {position: relative;}
-main section .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh;}
+main section .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; border: 1px solid red;}
 
 
