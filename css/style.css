@@ -49,6 +49,6 @@ nav:hover .slider-menu {display: block;}
 /* main  */
 main {position: relative; overflow: hidden;}
 main section {position: relative;}
-main section .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; border: 1px solid red;}
+main section .main_bg {background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; border: 1px solid orange;}
 
 
