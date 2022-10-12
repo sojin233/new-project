@@ -28,7 +28,7 @@ body {background-color: #f9f7f6;overflow-y: auto; overflow-x: hidden; margin-bot
 nav {border: 1px solid red; display: inline-block; height: 100%;}
 nav ul li a{color: #000;}
 
-nav > ul {display: inline-block;}
+nav > ul {display: inline-block;vertical-align: m;}
 nav > ul > li {display: inline-block; width: 150px; text-align: center;}
 nav > ul > li > a {font-size: 14px; font-weight: 400; display: block; font-size: 400;}
 
