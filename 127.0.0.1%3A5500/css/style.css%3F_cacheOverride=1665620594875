@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{box-sizing: border-box;font-family: 'Gowun Dodum', sans-serif;}
+*{box-sizing: border-box; font-family: 'Gowun Dodum', sans-serif;}
 
 /* 스크롤바 */
 ::-webkit-scrollbar {width:5px; height:5px;}  
@@ -26,10 +26,10 @@ body {background-color: #f9f7f6;overflow-y: auto; overflow-x: hidden; margin-bot
 
 /* nav */
 nav { display: inline-block; height: 100%; vertical-align:top; text-align: center; padding-top: 18px; margin-left: 30px; position: relative; width: 75%;}
-nav ul li a{color: #fff;letter-spacing: -0.5px;}
+nav ul li a{color: #fff; letter-spacing: -0.5px;}
 nav > ul {display: inline-block;}
 nav > ul > li {display: inline-block; width: 200px; text-align: center;}
-nav > ul > li > a {font-size: 14px; font-weight: 400; display: block; font-size: 400;}
+nav > ul > li > a {font-size: 14px;font-weight: 400;display: block;font-size: ;}
 .slider-menu {padding: 22px 0px 60px 0px; display: none;}
 .slider-menu li {padding: 5px 0;}
 .slider-menu li a {font-size: 14px; font-weight: 300;}
